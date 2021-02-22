@@ -6,5 +6,5 @@
     -> E **nome1** == o nome do arquivo ou diretório a ser lido, na pasta atual.
  
 -> Segundo Script:
-  -> Para executar use: **python3 P2B.PY nome1 nome2**
+  -> Para executar use: **python3 P2b.py nome1 nome2**
     -> Onde **nome1 e nome2** são os arquivos a serem comparados do diretório atual.
