@@ -114,7 +114,6 @@ if __name__ == "__main__":
 		lines = FilterLines(lines) #-> salvamos so as linhas com "permission"
 		results.append([file]+GetPermissions(lines)) #salvamos somente as chaves sem repetição
 	
-	print('a' +sys.argv[2])
 
 	if(int(sys.argv[2]) == 1):
 		ListPermissions(results)
