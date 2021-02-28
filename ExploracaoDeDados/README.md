@@ -1,5 +1,5 @@
 **Tipos de Dados**
-- O Dataset escolhido tem números de colunas iguais de atributos numéricos e textuais sendo 7 para cada. Por fim, possui uma única coluna com no formato de datas.
+- O Dataset escolhido tem números de colunas iguais de atributos numéricos e textuais sendo 7 para cada. Por fim, possui uma única coluna no formato de datas.
 
 **Objetivo**
 
