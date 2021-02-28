@@ -1,5 +1,5 @@
 **Sobre o Dataset**
-- Escolhemos o AWS Honeypot Attack Data, um dataset que registra tentativas de ataques interceptados por honeypots. Possuí 451,581 linhas de dados coletados entre 21:53 do dia 3 de março até 05:55 de 8 de setembro.
+- Escolhemos o AWS Honeypot Attack Data, um dataset que registra tentativas de ataques interceptados por honeypots. Possui 451,581 linhas de dados coletados entre 21:53 do dia 3 de março até 05:55 de 8 de setembro.
 
 - As colunas são:
 
@@ -26,7 +26,17 @@
 **Objetivo**
 - Analizar dados sobre ataques realizados e apresentar, de maneira gráfica, suas tendências, como locais mais atacados, horas em que mais ataques são realizados, países mais atigindos e outras especifidades. Por fim, pode-se pensar sobre usar o dataset para criar um algoritmo prediditivo de ameaças cibernéticas (com base nos atributos disponíveis).
 
-**Rotulação de Dataset**
+**Rotulação do Dataset**
+- Os rótulos são baseados no host do honeypot que recebe o ataque. Portanto, cada entrada corresponde a um ataque nos seguintes hosts:
+  - groucho-oregon
+  - groucho-us-east
+  - groucho-singapore
+  - groucho-tokyo
+  - groucho-sa
+  - zeppo-norcal
+  - groucho-eu
+  - groucho-norcal
+  - groucho-sidney
 
 **Dados a Retirar**
 - Seria interessante retirar a coluna **Type**, visto que esta não é valorada para a maior parte dos registros do dataset. 
