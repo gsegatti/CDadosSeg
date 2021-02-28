@@ -1,7 +1,7 @@
 **Sobre o Dataset**
 - Escolhemos o AWS Honeypot Attack Data, um dataset que registra tentativas de ataques interceptados por honeypots. Possuí 451,581 linhas de dados coletados entre 21:53 do dia 3 de março até 05:55 de 8 de setembro.
 
--As colunas são:
+- As colunas são:
 
   - Data
   - Host
