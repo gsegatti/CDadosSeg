@@ -79,7 +79,7 @@
     - Jiangsu Sheng: 34114
     - Beijing Shi: 33564
     - Liaoning: 21346
-    Todos os demais 1175 locais ocorrem 13500 vezes ou menos.
+    - Todos os demais 1175 locais ocorrem 13500 vezes ou menos.
 
   - **City Abbreviation**: existem 614 valores distintos para esse campo, sendo numéricos ou textuais:
     - Null: 119842
@@ -87,7 +87,7 @@
     - 11: 36062
     - 32: 34121
     - 21: 21423
-    Todos demais 609 valores ocorrem 13700 vezes ou menos.
+    - Todos demais 609 valores ocorrem 13700 vezes ou menos.
     
   - **Postal Code**: convertendo os CEPs para inteiros, temos a seguinte distribuição:
     ![cep](https://user-images.githubusercontent.com/71611489/109517232-cb01d280-7a87-11eb-879c-37d0534a4608.png)
