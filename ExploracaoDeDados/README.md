@@ -38,7 +38,8 @@
   - groucho-norcal
   - groucho-sidney
 
-**Dados a Retirar**
+**Dados a Retirar/Manter**
 - Seria interessante retirar a coluna **Type**, visto que esta não é valorada para a maior parte dos registros do dataset. 
 - As colunas que guardam o nome das cidades e países de maneira abreviada (**Locale Abbreviation, Country Acronym**) dificilmente serão utilizadas para alguma análise, já que temos os dados na íntegra. 
 - **Postal Code** (cep), **Latitude** e **Longitude** também poderiam ser descartados, visto que não estamos interessados na localização em que ataques ocorreram de forma tão detalhada.
+- **Data** será quebrada em duas colunas, onde uma terá o formato dd/mm/aaaa e a outra a hora e minuto, ao invés de um único campo multivalorado contendo ambas informaçoes.
