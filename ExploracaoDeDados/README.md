@@ -54,10 +54,10 @@
     - ![type](https://user-images.githubusercontent.com/71611489/109509697-ef59b100-7a7f-11eb-906a-984661d3297f.png)
   
   - Source Port: as portas utilizadas variam de valores próximos a 0 até 65535 (eixo X), já que diferentes protocolos são utilizados. O eixo Y corresponde ao número de vezes que cada porta foi utilizada.
-    - ![spt](https://user-images.githubusercontent.com/71611489/109510515-ddc4d900-7a80-11eb-8884-a33892182a01.png)
+    ![spt](https://user-images.githubusercontent.com/71611489/109510515-ddc4d900-7a80-11eb-8884-a33892182a01.png)
   
   - Dest Port: Mesmo racíocínio de _Source Port_:
-    -> ![dpt](https://user-images.githubusercontent.com/71611489/109511006-65aae300-7a81-11eb-98f7-d92f878d2a6c.png)
+    ![dpt](https://user-images.githubusercontent.com/71611489/109511006-65aae300-7a81-11eb-98f7-d92f878d2a6c.png)
   
 
 
