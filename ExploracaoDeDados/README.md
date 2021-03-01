@@ -50,6 +50,10 @@
    
   - **Country**: da mesma forma que _Country Acronym_.
   
+  - **Type**:
+  
+    ![type](https://user-images.githubusercontent.com/71611489/109517995-9d695900-7a88-11eb-89cc-0f5addd8422e.png)
+  
   - **Source Port**: as portas utilizadas variam de valores próximos a 0 até 65535 (eixo X), já que diferentes protocolos são utilizados. O eixo Y corresponde ao número de vezes que cada porta foi utilizada.
     ![spt](https://user-images.githubusercontent.com/71611489/109510515-ddc4d900-7a80-11eb-8884-a33892182a01.png)
   
@@ -93,12 +97,7 @@
     
   - **Source IP**: existem 69586 valores diferentes de IP registrados. A foto abaixo representa os mais utilizados, todos os demais não incluídos occorem 700 vezes ou menos:
     ![ip](https://user-images.githubusercontent.com/71611489/109516433-f3d59800-7a86-11eb-95cc-37eb265eecb0.png)
-    
-  - **Type**:
-  - 
-    ![type](https://user-images.githubusercontent.com/71611489/109517995-9d695900-7a88-11eb-89cc-0f5addd8422e.png)
- 
-  
+     
 
 **Dados a Retirar/Manter**
 - Seria interessante retirar a coluna **Type**, visto que esta não é valorada para a maior parte dos registros do dataset. 
