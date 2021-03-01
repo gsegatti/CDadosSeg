@@ -54,7 +54,8 @@
     - ![type](https://user-images.githubusercontent.com/71611489/109509697-ef59b100-7a7f-11eb-906a-984661d3297f.png)
   
   - Source Port: as portas utilizadas variam desde valores próximos a 0 até 65535, já que diferentes protocolos são utilizados:
-    -  
+    - ![spt](https://user-images.githubusercontent.com/71611489/109510515-ddc4d900-7a80-11eb-8884-a33892182a01.png)
+ 
 
 
 **Dados a Retirar/Manter**
