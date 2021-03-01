@@ -62,13 +62,44 @@
   - Date: segue a distribuição de dados por mês.
     ![date](https://user-images.githubusercontent.com/71611489/109512204-9d665a80-7a82-11eb-9283-6ea56344b468.png)
     
-  - 
-
+  - Host: a distribuição se dá pelo número de vezes que o Host de cada Honeypot foi acessado:
+    ![host](https://user-images.githubusercontent.com/71611489/109512486-e7e7d700-7a82-11eb-90bf-2294b4a4308c.png)
   
+  - Latitude: convertendo os valores para inteiros, temos:
+    ![latitude](https://user-images.githubusercontent.com/71611489/109512857-4745e700-7a83-11eb-9576-943bbca7ce80.png)
+    
+  - Longitude: convertendo os valores para inteiros, temos:
+    ![Longitude](https://user-images.githubusercontent.com/71611489/109513151-912ecd00-7a83-11eb-93d5-64d655318a8c.png)
 
+  - City: existem 1181 valores distintos de cidades e estados, sendo suas ocorrências:
+    - Null: 109469
+    - California: 37266
+    - Jiangsu Sheng: 34114
+    - Beijing Shi: 33564
+    - Liaoning: 21346
+    Todos os demais 1175 locais ocorrem 13500 vezes ou menos.
+
+  - City Abbreviation: existem 614 valores distintos para esse campo, sendo numéricos ou textuais:
+    - Null: 119842
+    - CA: 37278
+    - 11: 36062
+    - 32: 34121
+    - 21: 21423
+    Todos demais 609 valores ocorrem 13700 vezes ou menos.
+    
+  - Postal Code: convertendo os CEPs para inteiros, temos a seguinte distribuição:
+    ![cep](https://user-images.githubusercontent.com/71611489/109517232-cb01d280-7a87-11eb-879c-37d0534a4608.png)
+    
+  - Protocol: são usados 3 protocolos dentre todos os registros, aqui estão as frequências com que se distribuem:
+    ![protocol](https://user-images.githubusercontent.com/71611489/109515544-f84d8100-7a85-11eb-99e6-c923fc5c8322.png)
+    
+  - Source IP: existem 69586 valores diferentes de IP registrados. A foto abaixo representa os mais utilizados, todos os demais não incluídos occorem 700 vezes ou menos:
+    ![ip](https://user-images.githubusercontent.com/71611489/109516433-f3d59800-7a86-11eb-95cc-37eb265eecb0.png
+    
 
 **Dados a Retirar/Manter**
 - Seria interessante retirar a coluna **Type**, visto que esta não é valorada para a maior parte dos registros do dataset. 
 - As colunas que guardam o nome das cidades e países de maneira abreviada (**Locale Abbreviation, Country Acronym**) dificilmente serão utilizadas para alguma análise, já que temos os dados na íntegra. 
 - **Postal Code** (cep), **Latitude** e **Longitude** também poderiam ser descartados, visto que não estamos interessados na localização em que ataques ocorreram de forma tão detalhada.
+- **City Abbreviation** possui valores em texto ou em número, tal falta de consistencia provavelmente causará impecilhos que justificam sua retirada do dataset, visto que o mesmo dado já é explicitado no campo **City**.
 - **Date** será quebrada em duas colunas, onde uma terá o formato dd/mm/aaaa e a outra a hora e minuto, ao invés de um único campo multivalorado contendo ambas informaçoes.
