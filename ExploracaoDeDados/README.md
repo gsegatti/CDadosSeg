@@ -57,7 +57,7 @@
     - ![spt](https://user-images.githubusercontent.com/71611489/109510515-ddc4d900-7a80-11eb-8884-a33892182a01.png)
   
   - Dest Port: Mesmo racíocínio de _Source Port_:
-    -![dpt](https://user-images.githubusercontent.com/71611489/109511006-65aae300-7a81-11eb-98f7-d92f878d2a6c.png)
+    -> ![dpt](https://user-images.githubusercontent.com/71611489/109511006-65aae300-7a81-11eb-98f7-d92f878d2a6c.png)
   
 
 
