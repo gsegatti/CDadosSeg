@@ -95,6 +95,7 @@
     ![ip](https://user-images.githubusercontent.com/71611489/109516433-f3d59800-7a86-11eb-95cc-37eb265eecb0.png)
     
   - **Type**:
+  - 
     ![type](https://user-images.githubusercontent.com/71611489/109517995-9d695900-7a88-11eb-89cc-0f5addd8422e.png)
  
   
