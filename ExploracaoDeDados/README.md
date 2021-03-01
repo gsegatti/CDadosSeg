@@ -38,6 +38,19 @@
   - groucho-norcal
   - groucho-sidney
 
+
+**Distribuição do Dataset**
+- As 15 colunas do Dataset são distribuídas da maneira a seguir:
+  - Country Acronym: os 6 termos mais frequentes estão abaixo, enquanto todos os demais 172 possíveis valores ocorrem 10.000 vezes ou menos, dentre as 451.000 linhas.
+    - CN: 191394.
+    - US: 90005.
+    - JP: 17204.
+    - IR: 13042.
+    - TW: 12150.
+  - Country: da mesma forma que _Country Acronym_.
+  - Type:![type](https://user-images.githubusercontent.com/71611489/109509697-ef59b100-7a7f-11eb-906a-984661d3297f.png)
+
+
 **Dados a Retirar/Manter**
 - Seria interessante retirar a coluna **Type**, visto que esta não é valorada para a maior parte dos registros do dataset. 
 - As colunas que guardam o nome das cidades e países de maneira abreviada (**Locale Abbreviation, Country Acronym**) dificilmente serão utilizadas para alguma análise, já que temos os dados na íntegra. 
