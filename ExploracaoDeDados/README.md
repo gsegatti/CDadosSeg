@@ -3,7 +3,7 @@
 
 - As colunas são:
 
-  - Data
+  - Date
   - Host
   - Source
   - Protocol
@@ -51,13 +51,19 @@
   - Country: da mesma forma que _Country Acronym_.
   
   - Type:
-    - ![type](https://user-images.githubusercontent.com/71611489/109509697-ef59b100-7a7f-11eb-906a-984661d3297f.png)
+    ![type](https://user-images.githubusercontent.com/71611489/109509697-ef59b100-7a7f-11eb-906a-984661d3297f.png)
   
   - Source Port: as portas utilizadas variam de valores próximos a 0 até 65535 (eixo X), já que diferentes protocolos são utilizados. O eixo Y corresponde ao número de vezes que cada porta foi utilizada.
     ![spt](https://user-images.githubusercontent.com/71611489/109510515-ddc4d900-7a80-11eb-8884-a33892182a01.png)
   
   - Dest Port: Mesmo racíocínio de _Source Port_:
     ![dpt](https://user-images.githubusercontent.com/71611489/109511006-65aae300-7a81-11eb-98f7-d92f878d2a6c.png)
+    
+  - Date: segue a distribuição de dados por mês.
+    ![date](https://user-images.githubusercontent.com/71611489/109512204-9d665a80-7a82-11eb-9283-6ea56344b468.png)
+    
+  - 
+
   
 
 
@@ -65,4 +71,4 @@
 - Seria interessante retirar a coluna **Type**, visto que esta não é valorada para a maior parte dos registros do dataset. 
 - As colunas que guardam o nome das cidades e países de maneira abreviada (**Locale Abbreviation, Country Acronym**) dificilmente serão utilizadas para alguma análise, já que temos os dados na íntegra. 
 - **Postal Code** (cep), **Latitude** e **Longitude** também poderiam ser descartados, visto que não estamos interessados na localização em que ataques ocorreram de forma tão detalhada.
-- **Data** será quebrada em duas colunas, onde uma terá o formato dd/mm/aaaa e a outra a hora e minuto, ao invés de um único campo multivalorado contendo ambas informaçoes.
+- **Date** será quebrada em duas colunas, onde uma terá o formato dd/mm/aaaa e a outra a hora e minuto, ao invés de um único campo multivalorado contendo ambas informaçoes.
