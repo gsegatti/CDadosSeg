@@ -50,6 +50,7 @@
   - Country: da mesma forma que _Country Acronym_.
   - Type:
     - ![type](https://user-images.githubusercontent.com/71611489/109509697-ef59b100-7a7f-11eb-906a-984661d3297f.png)
+  - Source Port:
 
 
 **Dados a Retirar/Manter**
